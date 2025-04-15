@@ -6,7 +6,7 @@ Task objective: Containerize a Node.js application and deploy it on a local Kube
 
 To run the application on Minikube cluster please follow the below steps:
 
-1. Clone the repo from: https://github.com/ahmad-shaheen90/mubashersa-ashaheen-backend/tree/main
+1. Clone the repo from: https://github.com/ahmad-shaheen90/mubashersa-ashaheen-backend.git
 2. Docker engine and Minikube should be installed as a prerequisit.
 3. Start Minikube using "minikube start" command.
 4. Point the shell to minikube's docker-daemon using "eval $(minikube -p minikube docker-env)" command.
