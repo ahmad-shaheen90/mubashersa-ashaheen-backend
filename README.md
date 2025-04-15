@@ -13,6 +13,8 @@ To run the application on Minikube cluster please follow the below steps:
 5. From inside the project directory build the docker image using "docker build -t nodejs-app:latest ." command.
 6. Load the docker image to Minikube registry to be used from inside Minikube: "minikube image load nodejs-app:latest"
 7. To check the image inside Minikube you can use "minikube image ls" command.
-8. Apply Kubernetes Manifests: "kubectl apply -f k8s/"
-9. Then to access the application run "minikube service nodejs-service --url" command to get the URL.
-10. Copy the URL and paste in your browser.
+   <img width="860" alt="Screenshot 2025-04-16 at 12 45 02 AM" src="https://github.com/user-attachments/assets/814614a9-8432-4446-983d-42d77a3990ab" />
+9. Apply Kubernetes Manifests: "kubectl apply -f k8s/"
+10. Then to access the application run "minikube service nodejs-service --url" command to get the URL.
+11. Copy the URL and paste in your browser.
+    <img width="1435" alt="Screenshot 2025-04-16 at 12 42 21 AM" src="https://github.com/user-attachments/assets/2968246b-4b0c-421e-9084-3570ef785dfd" />
